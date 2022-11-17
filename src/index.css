@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(25,27,44);
+  margin: 12% auto 12% auto; 
+  font-size: 1.2rem; font-family: Verdana, Arial, sans-serif;
+}
+
+
+#calcface {
+  background-color: rgb(35,37,59);
+  border: solid 8px rgb(40,41,63);
+  min-height: 330px; max-height: 1vw;
+  max-width: 60%; min-width: 550px; 
+  margin: 15px auto; border-radius: 6px;
+  box-shadow: 1px 1px 3px 4px rgb(14,15,35);
+  display: flex; flex-wrap: wrap;
+}
+
+
+#display {
+  background-color: rgb(145,147,174);
+  border: solid 3px rgb(154,157,209);
+  max-height: 40px; min-width: 80%;
+  margin: 10px 40px;
+  flex-direction: row; flex: 100%;
+  border-radius: 3px; padding: 10px;
+}
+
+.buttonsFlex {
+  display: flex;
+  flex-direction: row; flex-wrap: wrap;
+  flex: 1;
+  margin: 5px auto 20px auto;
+}
+
+.-button {
+  border: solid 3px rgb(183,184,229);
+  background-color: rgb(155,156,191);
+  padding: 7px; margin: 5px;
+  text-align: center; 
+  border-radius: 5px;
+  flex: 14%
+}
